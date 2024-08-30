@@ -1,9 +1,9 @@
 :root{
     --branco: white;
-    --corDeFundo:#04486f;
-    --fundoSenha: #063366;
+    --corDeFundo:#042b42;
+    --fundoSenha: #2f4864;
     --fundoDeTexto: #001E40;
-    --borda: #000000;
+    --borda: #f7f1f1;
     --roboto: "Roboto", sans-serif;
     --robotoMono: "Roboto Mono", monospace;
 }
@@ -21,7 +21,7 @@ body{
     font-family: var(--roboto);
 }
 
-.titulo-secundario{
+.titulo-secundario{                                                             
     font-family: var(--robotoMono);
 }
 
@@ -34,4 +34,22 @@ body{
     background-color: var(--fundoSenha);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
+    margin-top: 50px;
+}
+
+#camposenha{
+    background-color: var(--fundoSenha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--robotoMono);
+    font-size: 40px;
+}
+
+#camposenha:focus{
+    outline: none;
+}
+
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
 }
